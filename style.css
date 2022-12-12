@@ -1,0 +1,402 @@
+* {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+.indexbg{
+  background-image: url('afb/test.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin:0;
+}
+
+
+header{
+  border-bottom: 1.5px solid rgb(219, 219, 219);
+  box-shadow: 0px 0px 20px 2px rgb(99, 149, 189);
+  margin:0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+nav{
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(30px);
+  }
+
+header nav ul {
+  Display: flex;
+  Flex-wrap: wrap;
+  Gap: 4em;
+  List-style-type: none;
+  justify-content: center;
+  Align-items: center;
+}
+
+header nav ul li:nth-of-type(2),
+header nav ul li:nth-of-type(3){
+order: -1;
+}
+
+img {
+  width: 15vh;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  margin-top: 3.2em;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4.3em;
+  text-transform: uppercase;
+  position:relative; 
+  left:5rem; top:0;
+}
+
+p{
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1em;
+  position:relative; 
+  left: 5rem; top: -1em;
+  line-height: 1.4;
+}
+
+.play{
+  width: 2em;
+  position:absolute;
+    bottom: 18rem;
+    left: 5rem;
+}
+
+
+h2{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position:absolute;
+  bottom: 10em;
+  left: 20em;
+}
+
+
+h3{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position:absolute;
+  bottom: 8em;
+  right: -8.1em;
+  transform-origin:0%;
+  transform: rotate(-90deg);
+
+}
+
+.instalogo{
+  width: 1.5em;
+  position:absolute;
+    bottom: 4.5em;
+    right:2em;
+}
+
+.twitterlogo{
+  width: 1.5em;
+  position:absolute;
+    bottom: 2em;
+    right:2em;
+}
+
+
+/* Topcast pagina */
+
+.topcastbg{
+  background-image: url('afb/last.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin:0;
+  z-index: -1;
+}
+
+.darkheader{
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 0px 20px 2px rgb(99, 149, 189);
+  margin:0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Rey */
+
+.rey{
+  position:absolute;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-left: 10px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgb(247, 246, 246);
+  top: 95px;
+}
+
+.reytitel{
+  
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3.3em;
+  text-transform: uppercase;
+  position:relative; 
+  left:420px; 
+  top: 100px;
+
+}
+
+hr{
+  border-color: white;
+  border-image-slice: 1;
+  z-index: -1;
+  z-index: 1;
+  width: 30em; 
+  margin-left: 420px; 
+  margin-top: 120px;
+  border-style:solid;
+}
+
+.reyslijn{
+  border-image: linear-gradient(0.25turn, #01e6ff, #7635ae, rgba(0, 132, 255, 0));
+  border-image-slice: 1;
+  z-index: -1;
+  z-index: 1;
+  width: 20em; 
+  margin-left: 420px; 
+  margin-top: -10px;
+  border-style: solid
+}
+
+.reytrans{
+  z-index: 1;
+  width: 55em;
+  position: fixed;
+  left: 850px;
+  bottom: 0;
+}
+
+.reytekst{
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  position:relative; 
+  left: 420px; 
+  top: 20px;
+  line-height: 1.4;
+  width: 35%;
+}
+
+.reytotaal{
+  position: fixed;
+  width: 100%;
+}
+
+/* Finn */
+
+.finn{
+  position:absolute;
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  opacity: 30%;
+  top: 295px;
+  z-index: 5;
+}
+
+.finn:hover{
+  opacity: 100%;
+}
+
+/* Lando */
+
+.lando{
+  position:absolute;
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  opacity: 30%;
+  top: 495px;
+  z-index: 5;
+}
+
+.lando:hover{
+  opacity: 100%;
+}
+
+/* Kylo */
+
+.kylo{
+  position:absolute;
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  opacity: 30%;
+  top: 695px;
+  z-index: 5;
+  
+}
+
+.kylo:hover{
+  opacity: 100%;
+}
+
+/* Phasma */
+
+.phasma{
+  position:absolute;
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  opacity: 30%;
+  top: 895px;
+  z-index: 5;
+}
+
+.phasma:hover{
+  opacity: 100%;
+}
+/* Poe */
+.poe{
+  position:absolute;
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  opacity: 30%;
+  top: 1095px;
+  z-index: 5;
+}
+
+.poe:hover{
+  opacity: 100%;
+}
+
+
+/* Watch the trailer */
+
+
+video{
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  margin: -5px;
+}
+
+.watch{
+  background-color: #000000;
+  background-size: cover;
+  background-attachment: fixed;
+  margin:0;
+  z-index: -1;
+}
+
+.back{
+  position:absolute;
+  width: 20px;
+  top: 16%;
+  left: 2%;
+}
+
+@media(max-width:500px){
+  h1,h2,h3{
+    color: red;
+  }
+}
+
+/* GALLERRY PAGINA */
+
+.headergallery{
+  background-image: url('afb/last.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin:0;
+}
+
+body main{
+  line-height:0;
+   column-count:5;
+   column-gap:0.5em;
+   margin-top: -3.9em;
+}
+
+main {
+  position:absolute;
+  top: 10em;
+  overflow-y:scroll;
+
+}
+
+body main img{
+  width: 100%;
+   height: auto;
+   margin-bottom:0.5em;
+   
+}
+
+footer{
+  background-color: rgb(135, 64, 64);
+  width: 100%;
+  height: 2em;
+  bottom: 0;
+  margin:auto;
+  text-align: center;
+  align-items: center;
+  display: table;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(250, 244, 244);
+  position:fixed;
+  
+}
+
+/* REVIEWS PAGINA */
+
+.reviewkb{
+  width: 30em;
+  height: 15em;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+.review h4{
+  height:40px;
+  line-height:40px;
+  padding:0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
