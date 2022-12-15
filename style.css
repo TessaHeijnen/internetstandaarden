@@ -3,15 +3,14 @@
   overflow-x: hidden;
 }
 
+/* HEADER--------------------------------------------------  */
 
-
-.indexbg{
+.home{
   background-image: url('afb/test.jpeg');
   background-size: cover;
   background-attachment: fixed;
   margin:0;
 }
-
 
 header{
   border-bottom: 1.5px solid rgb(219, 219, 219);
@@ -36,6 +35,14 @@ header nav ul {
   List-style-type: none;
   justify-content: center;
   Align-items: center;
+  padding: 0;
+}
+
+header nav ul li:hover {
+  border-bottom-style: solid;
+  border-color: rgb(255, 255, 255);
+  transition:ease .3s;
+  height: 25px;
 }
 
 header nav ul li:nth-of-type(2),
@@ -53,249 +60,94 @@ a {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1{
-  margin-top: 3.2em;
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 4.3em;
-  text-transform: uppercase;
-  position:relative; 
-  left:5rem; top:0;
-}
 
-p{
-  color: white;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.1em;
-  position:relative; 
-  left: 5rem; top: -1em;
-  line-height: 1.4;
-}
+/* HEADER Transparant --------------------------------------------------  */
 
-.play{
-  width: 2em;
-  position:absolute;
-    bottom: 18rem;
-    left: 5rem;
-}
-
-
-h2{
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  position:absolute;
-  bottom: 10em;
-  left: 20em;
-}
-
-
-h3{
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  position:absolute;
-  bottom: 8em;
-  right: -8.1em;
-  transform-origin:0%;
-  transform: rotate(-90deg);
-
-}
-
-.instalogo{
-  width: 1.5em;
-  position:absolute;
-    bottom: 4.5em;
-    right:2em;
-}
-
-.twitterlogo{
-  width: 1.5em;
-  position:absolute;
-    bottom: 2em;
-    right:2em;
-}
-
-
-/* Topcast pagina */
-
-.topcastbg{
+.cast header{
   background-image: url('afb/last.jpg');
   background-size: cover;
   background-attachment: fixed;
   margin:0;
-  z-index: -1;
 }
 
-.darkheader{
-  background: rgb(0, 0, 0);
-  box-shadow: 0px 0px 20px 2px rgb(99, 149, 189);
-  margin:0;
+/* Home PAGINA--------------------------------------------------  */
+
+.home main section:nth-of-type(1){
   position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
+  top:1em;
+  left:6em;
+  color: rgb(255, 255, 255);
 }
 
-/* Rey */
-
-.rey{
-  position:absolute;
-  width: 350px;
-  height: 200px;
-  object-fit: cover;
-  border-left: 10px solid rgb(255, 255, 255);
-  box-shadow: 0px 0px 10px 0px rgb(247, 246, 246);
-  top: 95px;
-}
-
-.reytitel{
-  
-  color: white;
+.home main section:nth-of-type(1) h1{
+  margin-top: 3.2em;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 3.3em;
+  font-size: 4.3em;
   text-transform: uppercase;
-  position:relative; 
-  left:420px; 
-  top: 100px;
-
 }
 
-hr{
-  border-color: white;
-  border-image-slice: 1;
-  z-index: -1;
-  z-index: 1;
-  width: 30em; 
-  margin-left: 420px; 
-  margin-top: 120px;
-  border-style:solid;
-}
 
-.reyslijn{
-  border-image: linear-gradient(0.25turn, #01e6ff, #7635ae, rgba(0, 132, 255, 0));
-  border-image-slice: 1;
-  z-index: -1;
-  z-index: 1;
-  width: 20em; 
-  margin-left: 420px; 
-  margin-top: -10px;
-  border-style: solid
-}
-
-.reytrans{
-  z-index: 1;
-  width: 55em;
-  position: fixed;
-  left: 850px;
-  bottom: 0;
-}
-
-.reytekst{
-  color: white;
+.home main section:nth-of-type(1) p{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.1em;
   font-weight: 400;
-  position:relative; 
-  left: 420px; 
-  top: 20px;
-  line-height: 1.4;
-  width: 35%;
+  line-height: 1.5em;
+  margin-bottom: 2em;
 }
 
-.reytotaal{
+.home main section:nth-of-type(1) a img{
+  width: 2em;
+  margin-bottom: 8em;
+  margin-left: 4px;
+}
+
+
+.home main section:nth-of-type(1) a img:hover {
+  transform: scale(1.2);
+}
+
+.home main section:nth-of-type(1) h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   position: fixed;
-  width: 100%;
+  bottom: 10em;
 }
 
-/* Finn */
-
-.finn{
-  position:absolute;
-  width: 360px;
-  height: 200px;
-  object-fit: cover;
-  opacity: 30%;
-  top: 295px;
-  z-index: 5;
+.home main section:nth-of-type(1) h3{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position: fixed;
+  bottom: 8em;
+  right: -8em;
+  transform-origin:0%;
+  transform: rotate(-90deg);
 }
 
-.finn:hover{
-  opacity: 100%;
+.home main section:nth-of-type(2){
+width: 1.5em;
+display: flex;
+flex-direction: column;
+gap: 1em;
+position: fixed;
+  bottom: 1.5em;
+  right: 2em;
 }
 
-/* Lando */
+/* Watch the trailer-------------------------------------------------- */
 
-.lando{
-  position:absolute;
-  width: 360px;
-  height: 200px;
-  object-fit: cover;
-  opacity: 30%;
-  top: 495px;
-  z-index: 5;
+.watch header{
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  margin:0;
 }
 
-.lando:hover{
-  opacity: 100%;
-}
-
-/* Kylo */
-
-.kylo{
-  position:absolute;
-  width: 360px;
-  height: 200px;
-  object-fit: cover;
-  opacity: 30%;
-  top: 695px;
-  z-index: 5;
-  
-}
-
-.kylo:hover{
-  opacity: 100%;
-}
-
-/* Phasma */
-
-.phasma{
-  position:absolute;
-  width: 360px;
-  height: 200px;
-  object-fit: cover;
-  opacity: 30%;
-  top: 895px;
-  z-index: 5;
-}
-
-.phasma:hover{
-  opacity: 100%;
-}
-/* Poe */
-.poe{
-  position:absolute;
-  width: 360px;
-  height: 200px;
-  object-fit: cover;
-  opacity: 30%;
-  top: 1095px;
-  z-index: 5;
-}
-
-.poe:hover{
-  opacity: 100%;
-}
-
-
-/* Watch the trailer */
-
-
-video{
+.watch main video{
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -311,77 +163,178 @@ video{
   z-index: -1;
 }
 
-.back{
+.watch main a{
   position:absolute;
   width: 20px;
   top: 16%;
   left: 2%;
 }
 
-@media(max-width:500px){
-  h1,h2,h3{
-    color: red;
-  }
+
+/* GALLERRY PAGINA--------------------------------------------------  */
+
+.gallery header{
+background-image: url('afb/last.jpg');
+background-size: cover;
+background-attachment: fixed;
+margin:0;
 }
 
-/* GALLERRY PAGINA */
-
-.headergallery{
+.gallery{
   background-image: url('afb/last.jpg');
   background-size: cover;
   background-attachment: fixed;
   margin:0;
+  z-index: -1;
 }
 
-body main{
+.gallery main{
   line-height:0;
    column-count:5;
    column-gap:0.5em;
-   margin-top: -3.9em;
+   margin-top: 6.2em;
 }
 
-main {
-  position:absolute;
-  top: 10em;
-  overflow-y:scroll;
-
-}
-
-body main img{
+.gallery main img{
   width: 100%;
    height: auto;
-   margin-bottom:0.5em;
-   
+   margin-bottom:0.5em; 
 }
 
 footer{
-  background-color: rgb(135, 64, 64);
+  background-color: rgb(0, 0, 0);
   width: 100%;
-  height: 2em;
+  height: 0.2em;
   bottom: 0;
   margin:auto;
   text-align: center;
-  align-items: center;
   display: table;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.8em;
   color: rgb(250, 244, 244);
-  position:fixed;
+  position: sticky;
+  top: 0;
+  background-color: rgb(0, 0, 0);
   
 }
 
-/* REVIEWS PAGINA */
 
-.container{
-  border: 2px solid #ccc;
-  background-color: #eee;
-  border-radius: 5px;
-  padding: 16px;
-  margin: 16px 0;
-  text-align: left;
+/* CAST PAGINA--------------------------------------------------  */
 
+
+
+.cast{
+  background-image: url('afb/last.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin:0;
+  z-index: -1;
+}
+
+.cast main section:nth-of-type(1){
+
+/* De rij */
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
   position: absolute;
-  bottom: 1em;
+  top: 6.1em;
 }
+
+/* enkele */
+.cast main section:nth-of-type(1) img{
+  width: 20em;
+  opacity: 40%;
+}
+
+.cast main section:nth-of-type(1) img:hover{
+  opacity: 100%;
+}
+
+/* rey */
+.cast main section:nth-of-type(1) img:nth-of-type(1){
+  opacity: 100%;
+  border-left: 0.7em solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgb(247, 246, 246);
+  width: 19.3em;
+}
+
+/* kop + tekst */
+.cast main section:nth-of-type(2){
+  position: fixed;
+  top:8em;
+  left:25em;
+  color: rgb(255, 255, 255);
+}
+
+.cast main section:nth-of-type(2) hr{
+  border-image: linear-gradient(0.25turn, #01e6ff, #7635ae, rgba(0, 132, 255, 0));
+  border-image-slice: 1;
+  width: 25em; 
+  position: fixed;
+  top: 19em;
+}
+
+.cast main section:nth-of-type(2) h2{
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.cast main section:nth-of-type(2) p{
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.cast main section:nth-of-type(2) img{
+  position: fixed;
+  bottom: 0;
+  right: -13em;
+  width: 53%;
+}
+
+
+
+@media(max-width:500px){
+
+  body{
+    overflow: scroll;
+
+  }
+  header nav ul{
+    float: right;
+  }
+
+
+  .home main section:nth-of-type(1){
+    top:0.5em;
+    left:1em;
+  }
+
+  .home main section:nth-of-type(1) p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+  }
+  
+  .home main section:nth-of-type(1) a img{
+    width: 2em;
+    margin-bottom: 8em;
+    margin-left: 4px;
+  }
+
+
+
+  }
+
 
 
 
@@ -395,7 +348,5 @@ footer{
 
 
   
-
-
 
 
