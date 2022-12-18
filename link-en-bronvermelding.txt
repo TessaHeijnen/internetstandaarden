@@ -1,0 +1,89 @@
+Naam:Tessa Heijnen
+Studentnummer:
+Klas: P13 INKT
+Schooljaar: 2022/23 
+
+LINK NAAR LIVE WEBSITE
+http://www.mijnlivewebsite.nl
+
+
+
+
+BRONVERMELDING
+
+Icoon tabbar:
+https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website
+
+Navigatie bar: 
+Berry 
+
+Header Blur
+https://css-tricks.com/almanac/properties/b/backdrop-filter/
+
+Stay Connected (draaien)
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+
+De horizontale lijn (topcast)
+https://css-tricks.com/gradient-borders-in-css/
+
+De rij afbeeldingen (topcast)
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Galerij maken:
+https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea
+
+
+Afbeeldingen Home
+1. https://logos-download.com/9730-star-wars-logo-download.html
+2. https://www.flaticon.com/free-icon/play-button_375
+3. https://www.flaticon.com/free-icon/instagram-logo_87390
+4. https://www.flaticon.com/free-icon/twitter_733635
+5. https://free4kwallpapers.com/movies/stormtrooper-wallpaper--XRpo
+
+
+Afbeeldingen Top Cast
+1. https://www.deviantart.com/wipeoutkid06/art/Rey-Skywalker-V2-898824298
+2. https://www.cultureslate.com/news/opinion-why-rey-deserves-the-skywalker-name
+3. https://www.digitalspy.com/movies/a32140160/star-wars-finn-rise-of-skywalker-story-sibling/
+4. https://thissongissick.com/post/donald-glover-to-return-as-lando/
+5. https://www.wallpaperflare.com/kylo-ren-star-wars-the-force-awakens-wallpaper-uadod
+6. https://nerdist.com/article/phasma-mad-max-star-wars-reading-playlist/
+7. https://starwars.fandom.com/wiki/Poe_Dameron
+8. https://ezpoiler.com/curiosidades/r2-d2-fue-el-culpable-de-la-muerte-de-obi-wan-el-probable-heroe-villano-de-star-wars
+9. https://www.starwars.com/databank/bb-8
+
+Video
+1. https://www.youtube.com/watch?v=8Qn_spdM5Zg
+
+Afbeeldingen Gallery
+1.  https://comicbook.com/starwars/news/star-wars-the-rise-of-skywalker-photo-unites-rey-finn-poe-dameron/
+2.  https://nl.pinterest.com/pin/9429480457634333/
+3.  https://www.slashfilm.com/565698/the-rise-of-skywalker-trailer-breakdown/
+4.  https://www.looper.com/180808/its-time-to-talk-about-that-rey-and-kylo-ren-scene-in-the-rise-of-skywalker/
+5.  https://wallpapers.com/wallpapers/stormtroopers-on-water-3840-x-2160-star-wars-d0xhk0i1dfeg92ki.html
+6.  https://www.wired.com/story/the-odd-physics-of-reys-backflip-in-star-wars-the-rise-of-skywalker/
+7.  https://www.businessinsider.com/star-wars-rey-vision-explained-2016-3?international=true&r=US&IR=T
+8.  https://www.nme.com/reviews/film-reviews/star-wars-the-rise-of-skywalker-review-2588839
+9.  https://www.disneyplus.com/nl-nl/series/obi-wan-kenobi/2JYKcHv9fRJb
+10. https://www.businessinsider.com/guides/streaming/how-to-watch-obi-wan-kenobi?international=true&r=US&IR=T
+11. https://www.radiotimes.com/tv/sci-fi/star-wars-the-rise-of-skywalker-review-more-of-a-shrug-than-an-air-punch/
+12. https://starwars.fandom.com/wiki/Darth_Vader%27s_lightsaber
+13. https://as.com/meristation/2021/11/25/noticias/1637853879_155977.html
+14. https://www.polygon.com/2017/5/5/15555918/star-wars-the-force-awakens-ending
+15. https://www.printables.com/model/5561-star-wars-old-luke-and-r2d2-lithophane
+16. https://www.quora.com/If-Rey-isnt-related-to-Luke-then-why-did-his-lightsaber-call-out-to-her
+17. https://www.wallpaperflare.com/chewbacca-and-woman-sitting-on-spaceship-digital-wallpaper-wallpaper-134270
+18. https://www.vanityfair.com/hollywood/2019/05/star-wars-cover-story
+19. https://www.pathe-thuis.nl/film/30851/star-wars-the-rise-of-skywalker
+20. https://starwars.fandom.com/wiki/BB-8
+21. https://www.vanityfair.com/hollywood/2015/12/star-wars-the-force-awakens-rey-favorite-character
+22. https://mashable.com/article/last-jedi-kylo-ren-shirtless-scene
+23. https://www.cheatsheet.com/entertainment/star-wars-kylo-ren-was-an-awful-villain-for-a-reason.html/
+24. https://www.radiotimes.com/movies/kylo-rens-devastating-star-wars-force-powers-are-made-from-the-sound-of-a-cat-purring/
+25. https://www.cultureslate.com/news/explore-poe-damerons-past-in-star-wars-age-of-resistance
+26. https://www.pinterest.cl/pin/370561875569729257/
+27. https://slate.com/culture/2015/04/star-wars-trailer-introducing-old-solo-the-star-wars-movie-j-j-abrams-should-make.html
+28. https://phys.org/news/2015-12-r2-d2-c-3po.html
+29. https://www.digitalspy.com/movies/a32343238/star-wars-r2-d2-name-george-lucas-thx-1138/
+30. https://milnersblog.com/2015/12/09/new-force-awakens-promo-images/new-star-wars-the-force-awakens-promotional-images-_-poe-dameron-and-bb8-resistance-base/
+31. https://www.reddit.com/r/StarWarsCantina/comments/cz48gz/for_their_fall_preview_the_new_york_times/
